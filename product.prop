@@ -13,3 +13,8 @@ ro.incremental.enable=1
 
 # USAP
 persist.device_config.runtime_native.usap_pool_enabled=true
+
+# Transcoding related property.
+debug.media.transcoding.codec_max_operating_rate_720P=240
+debug.media.transcoding.codec_max_operating_rate_1080P=120
+
