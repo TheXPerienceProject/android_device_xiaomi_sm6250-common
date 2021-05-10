@@ -23,7 +23,4 @@
          3 = right side
     -->
     <integer name="config_fingerprintSensorLocation">3</integer>
-
-    <!-- Device specific doze package -->
-    <string name="config_customDozePackage">mx.xperience.doze/mx.xperience.doze.DozeSettingsActivity</string>
 </resources>
