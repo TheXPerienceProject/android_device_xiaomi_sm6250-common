@@ -1392,8 +1392,8 @@ vendor/firmware/drv2624.bin
 vendor/firmware/drv2624.rtp
 vendor/firmware/Drv2624Date.ini
 vendor/lib/vendor.xiaomi.hardware.vibratorfeature@1.0.so
-vendor/lib/hw/vendor.xiaomi.hardware.vibratorfeature@1.0-impl.so
-vendor/lib64/vendor.xiaomi.hardware.vibratorfeature@1.0.so
+vendor/lib/hw/vendor.xiaomi.hardware.vibratorfeature@1.0.so
+vendor/lib64/vendor.xiaomi.hardware.vibratorfeature@1.0-impl.so
 vendor/lib64/hw/vendor.xiaomi.hardware.vibratorfeature@1.0-impl.so
 
 # WiFi
