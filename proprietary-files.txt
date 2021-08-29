@@ -1618,8 +1618,8 @@ vendor/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so
 #vendor/lib64/libwvkeybox.so
 #vendor/lib64/vendor.qti.hardware.automotive.vehicle@1.0.so
 
--product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
--product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
+-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk;PRESIGNED
+-product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk;PRESIGNED
 product/etc/permissions/privapp-permissions-hotword.xml
 system/etc/sysconfig/hotword-hiddenapi-package-whitelist.xml
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
