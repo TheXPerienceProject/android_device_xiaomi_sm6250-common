@@ -9,4 +9,4 @@ allow hal_audio_default audio_socket:sock_file rw_file_perms;
 allow hal_audio_default sysfs:dir { read open };
 
 #fix  E libc    : Access denied finding property "tas.smartpa.debug.txformat24"
-allow hal_audio_default default_prop:file read;
+allow hal_audio_default default_prop:file r_file_perms;
