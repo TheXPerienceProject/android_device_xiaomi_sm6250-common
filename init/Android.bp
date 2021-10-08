@@ -20,10 +20,11 @@ cc_library_static {
     srcs: [
         "init_common.cpp"
     ],
-    include_dirs: [
-        "system/core/base/include",
-        "system/core/init"
-    ],
+    header_libs: ["bootimg_headers"],
+    proto: {
+        type: "lite",
+        export_proto_headers: true,
+    },
     export_include_dirs: [
         "include"
     ],
