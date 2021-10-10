@@ -432,3 +432,7 @@ PRODUCT_PACKAGES += \
 
 #PRODUCT_BOOT_JARS += \
 #    WfdCommon
+
+# Set system properties identifying the chipset
+PRODUCT_VENDOR_PROPERTIES += ro.soc.manufacturer=Qualcomm
+PRODUCT_VENDOR_PROPERTIES += ro.soc.model=SM7125
