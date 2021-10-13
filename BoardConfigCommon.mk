@@ -10,6 +10,9 @@ BUILD_BROKEN_DUP_RULES := true
 # PRODUCT_COPY_FILES directives.
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
+# for qcom.fmradio
+RELAX_USES_LIBRARY_CHECK=true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a-dotprod
