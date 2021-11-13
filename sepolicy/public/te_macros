@@ -1,6 +1,6 @@
 #####################################
-# hal_attribute_custom(hal_name)
-define(`hal_attribute_custom', `
+# hal_attribute_xpe(hal_name)
+define(`hal_attribute_xpe', `
 attribute hal_$1;
 expandattribute hal_$1 true;
 attribute hal_$1_client;

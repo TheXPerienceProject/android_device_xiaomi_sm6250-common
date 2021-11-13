@@ -1,2 +1,0 @@
-# Should fix termux crash
-allow untrusted_app_27 sysfs_msm_subsys:dir search;
