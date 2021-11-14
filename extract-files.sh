@@ -49,6 +49,8 @@ if [ -z "${SRC}" ]; then
     SRC="adb"
 fi
 
+patchelf --add-needed "libshim_imsvidecoder.so" "system_ext/lib64/lib-imsvideocodec.so"
+
 # Initialize the helper for common device
 setup_vendor "${DEVICE_COMMON}" "${VENDOR}" "${LINEAGE_ROOT}" true "${CLEAN_VENDOR}"
 
