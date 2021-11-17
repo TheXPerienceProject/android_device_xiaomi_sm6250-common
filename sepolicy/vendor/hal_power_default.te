@@ -7,7 +7,6 @@ r_dir_file(hal_power_default, input_device)
 allow hal_power_default {
   vendor_sysfs_devfreq
   sysfs_msm_subsys
-  sysfs_touchpanel
 }:dir search;
 
 allow hal_power_default {
@@ -19,7 +18,6 @@ allow hal_power_default {
   vendor_sysfs_kgsl
   sysfs_msm_subsys
   vendor_sysfs_scsi_host 
-  sysfs_touchpanel
 }:{
   file
   lnk_file
@@ -32,3 +30,8 @@ unix_socket_connect(hal_power_default, vendor_pps, hal_graphics_composer_default
 
 # To get/set powerhal state property
 set_prop(hal_power_default, power_prop)
+
+# power hal libperfmgr: Failed to write to node: /sys/class/kgsl/kgsl-3d0/max_pwrlevel
+allow hal_power_default vendor_sysfs_kgsl:file rw_file_perms;
+allow hal_power_default vendor_sysfs_devfreq:dir search;
+allow hal_power_default vendor_sysfs_devfreq:file rw_file_perms;

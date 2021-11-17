@@ -1,9 +1,5 @@
-# For diag over socket
-userdebug_or_eng(`
-  allow kernel self:qipcrtr_socket create;
-')
-# Ignore the socket if it fails to create
-dontaudit kernel self:qipcrtr_socket create;
-
 # For zram writeback
 allow kernel per_boot_file:file r_file_perms;
+
+#allow kernel to kill swap
+allow kernel kernel:capability kill;

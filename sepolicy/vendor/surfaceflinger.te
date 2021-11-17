@@ -1,2 +1,1 @@
-allow surfaceflinger sysfs_msm_subsys:dir search;
-
+allow surfaceflinger sysfs_msm_subsys:dir { search };

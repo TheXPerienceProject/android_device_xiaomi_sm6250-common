@@ -3,6 +3,7 @@ allow hal_power_stats_default vendor_sysfs_iio:dir r_dir_perms;
 allow hal_power_stats_default vendor_sysfs_iio:file r_file_perms;
 
 allow hal_power_stats_default sysfs_msm_wlan:dir search; # Needed to traverse to wlan stats file
+allow hal_power_stats_default wifi_hal_prop:file r_file_perms; # Read wifi stats
 get_prop(hal_power_stats_default, wifi_prop) # Needed to detect wifi on/off
 r_dir_file(hal_power_stats_default, sysfs_iio_devices) # Needed to traverse odpm files
 r_dir_file(hal_power_stats_default, sysfs_power_stats) # Needed to traverse platform low power stats
