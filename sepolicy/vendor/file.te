@@ -36,3 +36,5 @@ type sysfs_power_stats_ignore, sysfs_type, fs_type;
 
 # hal misys
 type hal_misys_default_exec, exec_type, vendor_file_type, file_type;
+
+type sysfs_kgsl, fs_type, sysfs_type;
