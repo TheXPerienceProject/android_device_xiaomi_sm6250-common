@@ -4,3 +4,7 @@ allow vendor_qti_init_shell ctl_stop_prop:property_service set;
 allow vendor_qti_init_shell sysfs_wakeup:file setattr;
 allow vendor_qti_init_shell vfat:dir r_dir_perms;
 allow vendor_qti_init_shell vfat:file r_file_perms;
+
+# allow to read/write read ahead
+allow vendor_qti_init_shell sysfs:file rw_file_perms;
+

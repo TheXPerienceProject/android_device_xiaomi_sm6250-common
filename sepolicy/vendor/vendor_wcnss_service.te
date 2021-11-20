@@ -2,3 +2,8 @@
 allow vendor_wcnss_service mnt_vendor_file:dir search;
 allow vendor_wcnss_service mnt_vendor_file:file create_file_perms;
 allow vendor_wcnss_service sysfs:file r_file_perms;
+
+# allow to read firmware nodes
+allow vendor_wcnss_service vfat:dir r_dir_perms;
+allow vendor_wcnss_service vfat:file r_file_perms;
+
