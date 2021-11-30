@@ -7,6 +7,9 @@
 # Charger
 /vendor/bin/batterysecret                                               u:object_r:batterysecret_exec:s0
 
+# DSP
+/dsp(/.*)?                      u:object_r:adsprpcd_file:s0
+
 #elliptic sensor
 /dev/elliptic[0-9]		u:object_r:sensors_device:s0
 
