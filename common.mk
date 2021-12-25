@@ -492,3 +492,8 @@ PRODUCT_PACKAGES += \
 # Set system properties identifying the chipset
 PRODUCT_VENDOR_PROPERTIES += ro.soc.manufacturer=Qualcomm
 PRODUCT_VENDOR_PROPERTIES += ro.soc.model=SM7125
+
+TARGET_BOARD_PLATFORM := atoll
+TARGET_PROVIDES_POWERHAL := true
+TARGET_COMMON_QTI_COMPONENTS := \
+    perf
