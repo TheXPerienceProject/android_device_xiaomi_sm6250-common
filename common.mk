@@ -490,7 +490,7 @@ PRODUCT_PACKAGES += \
 #    WfdCommon
 
 # Set system properties identifying the chipset
-PRODUCT_VENDOR_PROPERTIES += ro.soc.manufacturer=Qualcomm
+PRODUCT_VENDOR_PROPERTIES += ro.soc.manufacturer=QTI
 PRODUCT_VENDOR_PROPERTIES += ro.soc.model=SM7125
 
 TARGET_BOARD_PLATFORM := atoll
