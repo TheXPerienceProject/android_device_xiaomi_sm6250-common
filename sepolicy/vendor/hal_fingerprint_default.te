@@ -36,3 +36,5 @@ allow hal_fingerprint_default vendor_sysfs_spss:file { open read };
 allow hal_fingerprint_default default_prop:file { getattr  map  open  read };
 allow hal_fingerprint_default vfat:dir search;
 allow hal_fingerprint_default vfat:file r_file_perms;
+
+binder_call(hal_fingerprint_default, vendor_hal_perf_default)
