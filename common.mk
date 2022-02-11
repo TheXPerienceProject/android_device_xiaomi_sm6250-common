@@ -130,6 +130,7 @@ PRODUCT_PACKAGES += \
     gralloc.atoll \
     hwcomposer.atoll \
     libdisplayconfig.qti \
+	libsmomoconfig.qti \
     libqdMetaData \
     libtinyxml \
     memtrack.atoll
