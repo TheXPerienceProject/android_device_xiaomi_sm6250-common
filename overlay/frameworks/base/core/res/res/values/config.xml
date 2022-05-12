@@ -789,7 +789,7 @@
     <bool name="config_hasChargeTurbo">true</bool>
 
     <!-- Indicates whether device has a power button fingerprint sensor. -->
-    <bool name="config_is_powerbutton_fps" translatable="false">true</bool>
+    <bool name="config_is_powerbutton_fps" translatable="false" >true</bool>
 
     <!-- User activity timeout: Minimum screen off timeout in milliseconds.
          Sets a lower bound for the {@link Settings.System#SCREEN_OFF_TIMEOUT} setting
@@ -799,4 +799,21 @@
          fall asleep again as soon as it is awoken.
     -->
     <integer name="config_minimumScreenOffTimeout">7000</integer>
+
+    <!-- Whether device has fingerprint on power button -->
+    <bool name="config_powerButtonFingerprint">true</bool>
+
+    <!-- An array of arrays of side fingerprint sensor properties relative to each display.
+         Note: this value is temporary and is expected to be queried directly
+         from the HAL in the future. -->
+    <array name="config_sfps_sensor_props" translatable="false">
+        <item>@array/config_sfps_sensor_props_0</item>
+    </array>
+
+    <array name="config_sfps_sensor_props_0" translatable="false">
+        <item></item>
+        <item>1080</item>
+        <item>871.5</item>
+        <item>115</item>
+    </array>
 </resources>
