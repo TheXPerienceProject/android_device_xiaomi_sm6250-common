@@ -1217,7 +1217,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <name>vendor.xiaomi.hardware.mlipay</name>
         <version>1.1</version>
         <interface>
-            <name>IMlipayService/</name>
+            <name>IMlipayService</name>
             <instance>default</instance>
         </interface>
     </hal>
