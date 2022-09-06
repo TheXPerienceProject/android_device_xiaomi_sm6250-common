@@ -51,6 +51,8 @@ fi
 
 patchelf --add-needed "libshim_imsvidecoder.so" "system_ext/lib64/lib-imsvideocodec.so"
 
+patchelf --add-needed "libpiex-v29.so" "vendor/lib64/camera/components/com.qti.node.watermark.so"
+
 # Initialize the helper for common device
 setup_vendor "${DEVICE_COMMON}" "${VENDOR}" "${LINEAGE_ROOT}" true "${CLEAN_VENDOR}"
 

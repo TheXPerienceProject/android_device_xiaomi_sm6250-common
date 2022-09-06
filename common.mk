@@ -537,3 +537,6 @@ TARGET_BOARD_PLATFORM := atoll
 TARGET_PROVIDES_POWERHAL := true
 TARGET_COMMON_QTI_COMPONENTS := \
     perf
+
+PRODUCT_COPY_FILES += \
+    prebuilts/vndk/v29/arm64/arch-arm64-armv8-a/shared/vndk-core/libpiex.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpiex-v29.so \
