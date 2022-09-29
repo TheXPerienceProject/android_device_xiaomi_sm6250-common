@@ -438,7 +438,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/pixel \
-    device/xiaomi/sm6250-common/power-libperfmgr
+    device/xiaomi/sm6250-common/power-libperfmgr \
+    packages/modules/Bluetooth/android/app \
+    system/bt/conf
 
 # Telephony
 PRODUCT_PACKAGES += \
